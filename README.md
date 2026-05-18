@@ -100,6 +100,7 @@ Pattern      : '
 
 ## Project Structure
 
+'''
 sql-injection-lab/
 ├── app.py           Flask backend with defense layer
 ├── database.py      Database setup and seeding
@@ -109,6 +110,7 @@ sql-injection-lab/
 └── templates/
 └── login.html       Login page frontend
 
+'''
 ---
 
 ## Future Improvements
