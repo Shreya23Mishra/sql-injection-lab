@@ -1,0 +1,32 @@
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 661-427-361
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 661-427-361
+127.0.0.1 - - [18/May/2026 06:34:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 06:34:56] "POST /login HTTP/1.1" 200 -
+
+    --- ATTACK DETECTED ---
+    Time            : 2026-05-18 06:35:56 
+    IP Address      : 127.0.0.1 
+    Username        : ' OR '1'='1' -- 
+    Password        : 
+    Pattern         : '
+    -----------------------
+127.0.0.1 - - [18/May/2026 06:35:56] "POST /login HTTP/1.1" 200 -
+
+    --- ATTACK DETECTED ---
+    Time            : 2026-05-18 06:37:33 
+    IP Address      : 127.0.0.1 
+    Username        : admin' -- 
+    Password        : 
+    Pattern         : '
+    -----------------------
+127.0.0.1 - - [18/May/2026 06:37:33] "POST /login HTTP/1.1" 200 -
